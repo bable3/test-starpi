@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_splitted_sections",
+  "info": {
+    "displayName": "Splitted section",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reversed": {
+      "type": "boolean"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

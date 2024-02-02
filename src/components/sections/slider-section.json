@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_slider_sections",
+  "info": {
+    "displayName": "Slider section",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "carousel": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

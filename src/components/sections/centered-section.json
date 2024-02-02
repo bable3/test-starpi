@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_centered_sections",
+  "info": {
+    "displayName": "Centered section",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

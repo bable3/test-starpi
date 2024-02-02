@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_sections",
+  "info": {
+    "displayName": "section",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
