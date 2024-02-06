@@ -8,7 +8,7 @@ export interface ProductSection extends Schema.Component {
     description: '';
   };
   attributes: {
-    title_prout: Attribute.String;
+    title_prout_coucoucoucou: Attribute.String;
   };
 }
 
