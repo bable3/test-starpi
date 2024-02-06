@@ -54,9 +54,9 @@ export interface SectionsSplittedSection extends Schema.Component {
     description: '';
   };
   attributes: {
-    Image: Attribute.Media;
+    image: Attribute.Media;
     reversed: Attribute.Boolean;
-    Content: Attribute.RichText;
+    text: Attribute.Blocks;
   };
 }
 

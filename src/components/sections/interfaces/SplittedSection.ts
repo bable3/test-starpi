@@ -3,19 +3,19 @@
 import { Media } from '../../../common/schemas-to-ts/Media';
 
 export interface SplittedSection {
-  Image?: { data: Media };
+  image?: { data: Media };
   reversed?: boolean;
-  Content?: string;
+  text?: any;
 }
 export interface SplittedSection_Plain {
-  Image?: Media;
+  image?: Media;
   reversed?: boolean;
-  Content?: string;
+  text?: any;
 }
 
 export interface SplittedSection_NoRelations {
-  Image?: number;
+  image?: number;
   reversed?: boolean;
-  Content?: string;
+  text?: any;
 }
 

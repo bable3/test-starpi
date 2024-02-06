@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -21,8 +21,8 @@
     "reversed": {
       "type": "boolean"
     },
-    "Content": {
-      "type": "richtext"
+    "text": {
+      "type": "blocks"
     }
   }
 }
