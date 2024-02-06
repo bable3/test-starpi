@@ -2,11 +2,12 @@
   "collectionName": "components_product_sections",
   "info": {
     "displayName": "section",
-    "icon": "clock"
+    "icon": "clock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "title_prout": {
       "type": "string"
     }
   }

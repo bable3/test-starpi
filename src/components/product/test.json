@@ -2,19 +2,24 @@
   "collectionName": "components_product_tests",
   "info": {
     "displayName": "test",
-    "icon": "bold"
+    "icon": "bold",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "test_image": {
+    "test_image_coucou": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "coucou": {
+      "type": "string"
     }
   }
 }

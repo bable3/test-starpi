@@ -5,9 +5,10 @@ export interface ProductSection extends Schema.Component {
   info: {
     displayName: 'section';
     icon: 'clock';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
+    title_prout: Attribute.String;
   };
 }
 
@@ -16,9 +17,11 @@ export interface ProductTest extends Schema.Component {
   info: {
     displayName: 'test';
     icon: 'bold';
+    description: '';
   };
   attributes: {
-    test_image: Attribute.Media;
+    test_image_coucou: Attribute.Media;
+    coucou: Attribute.String;
   };
 }
 
